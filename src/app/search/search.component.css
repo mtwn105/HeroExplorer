@@ -1,0 +1,30 @@
+.search{
+    width: 90%;
+}
+
+#searchButton, #searchButton:hover{
+    color:white;
+    border-color: white;
+    
+}
+
+@media (min-width: 1200px) {
+    .search {
+      max-width: 1140px;
+    }
+  }
+  @media (min-width: 992px) {
+    .search {
+      max-width: 960px;
+    }
+  }
+  @media (min-width: 768px) {
+    .search {
+      max-width: 720px;
+    }
+  }
+  @media (min-width: 576px) {
+    .search {
+      max-width: 540px;
+    }
+  }

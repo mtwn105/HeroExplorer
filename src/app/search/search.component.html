@@ -1,0 +1,8 @@
+<div class="input-group mb-3 search mx-auto py-3 input-group-lg">
+  <input type="text" class="form-control" placeholder="Search Hero" [(ngModel)]="searchText">
+  <div class="input-group-append">
+    <button class="btn btn-outline-secondary" type="button" id="searchButton" (click)="exploreHero(searchText)">Search</button>
+  </div>
+</div>
+
+<app-results [searchResults]="searchResults"></app-results>
